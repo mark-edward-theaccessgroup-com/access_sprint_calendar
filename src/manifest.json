@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Sprint Calendar V2",
+  "version": "0.1.0",
+  "description": "Tweaks the Access Sprint Calendar",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["jquery.2.2.4.min.js", "content.js"],
+    "matches": ["http://10.49.201.158/Safe/wwwroot/*"]
+  }]
+ 
+}

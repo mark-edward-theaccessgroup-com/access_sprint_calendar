@@ -1,0 +1,58 @@
+md-sidenav-container {
+  /* background: url('https://media.giphy.com/media/3o7WTDJQVuYwhhuLhC/giphy.gif') !important; */
+  
+   /* background-color: blue !important; */
+  
+}
+
+md-sidenav-container table.table thead tr th
+{	
+    position: sticky;
+    top: 0; 
+	z-index: 5;
+    background: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+div.mat-sidenav-content
+{	
+    overflow: unset !important;
+	overflow-x: unset !important;
+	overflow-y: unset !important;
+}
+
+.app-content
+{
+	padding: 0px !important;
+}
+
+.mat-card
+{
+	padding:10px;
+}
+
+div.mat-card-header-text
+{
+	padding: 2px !important;
+	/* background-color: green !important; */
+}
+
+.mat-sidenav-container .mat-sidenav-transition
+{
+	margin-top: -12px !important;
+}
+.mat-card>:first-child {
+    margin-top: -22px !important;
+}
+body
+{
+	overflow-y: hidden !important;
+}
+
+md-card-content.mat-card-content table tfoot td
+{
+	padding: 0px !important;
+    margin: 0px !important;
+}
