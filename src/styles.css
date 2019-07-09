@@ -1,18 +1,22 @@
 md-sidenav-container {
-  /* background: url('https://media.giphy.com/media/3o7WTDJQVuYwhhuLhC/giphy.gif') !important; */
-  
+  /* background: url('https://media.giphy.com/media/3o7WTDJQVuYwhhuLhC/giphy.gif') !important; */  
    /* background-color: blue !important; */
   
 }
 
-md-sidenav-container table.table thead tr th
+md-sidenav-container table.table thead tr th:not(:first-child)
 {		
     position: sticky !important;
     top: 0; 
 	z-index: 5;
     background: #fff;
 	margin: 0px;
-	padding: 0px;
+	padding: 0px;	
+}
+
+md-sidenav-container table.table thead tr th:not(:first-child)
+{
+	padding-left: 32px !important;	
 }
 
 
@@ -35,8 +39,7 @@ div.mat-sidenav-content
 
 div.mat-card-header-text
 {
-	padding: 2px !important;
-	/* background-color: green !important; */
+	padding: 2px !important;	
 }
 
 .mat-sidenav-container .mat-sidenav-transition
