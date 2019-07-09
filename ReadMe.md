@@ -1,6 +1,6 @@
-Access Sprint Calendar - Chrome Extension
+# Access Sprint Calendar - Chrome Extension
 
-Improves and tweaks the existing sprint calendar.
+### Improves and tweaks the existing sprint calendar.
 
 - Fixes the position of the title bar and team names
 - Removes a bunch of scrollbars that messed up the display on smaller monitors

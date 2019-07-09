@@ -6,8 +6,8 @@ md-sidenav-container {
 }
 
 md-sidenav-container table.table thead tr th
-{	
-    position: sticky;
+{		
+    position: sticky !important;
     top: 0; 
 	z-index: 5;
     background: #fff;
@@ -56,3 +56,31 @@ md-card-content.mat-card-content table tfoot td
 	padding: 0px !important;
     margin: 0px !important;
 }
+
+/* ================================================================================================== */
+/* Hover over fix attempts */
+/* ================================================================================================== */
+/* ngb-popover-window.popover-window { */
+	/* background-color: red !important; */
+	/* margin-top: 0px !important; */
+/* } */
+/* ngb-popover-window {	 */
+	/* margin-top: 0px !important; */
+/* } */
+/* ngb-popover-window div {		 */
+	/* margin-top: -2px !important; */
+/* } */
+
+/* ngb-popover-window .action-button */
+/* {		  */
+	/* margin-top: 30px !important; */
+	/* background-position: left top !important;  */
+	
+	/* /* padding: 40px !important; */ 
+/* }  */
+/* /* md-icon .mat-icon */ 
+/* button.mat-button */
+/* { */
+	/* background-position: left top !important;  */
+/* } */
+/* ================================================================================================== */
